@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-price {
+    color: #888;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+.product img {
+    max-width: 100%;
+    width: 200px; /* تحديد عرض الصورة */
+    height: auto; /* الحفاظ على النسبة العرض إلى الارتفاع */
+    display: block;
+    margin: 0 auto; /* لتوسيط الصورة داخل العنصر */
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 100%;
+    max-width: 300px; /* تحديد أقصى عرض لعنصر المنتج */
+    margin: 10px;
+    text-align: center;
+}
